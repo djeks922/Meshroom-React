@@ -4,6 +4,7 @@ import Main from '../components/Main/Main'
 import Projects from '../components/ProjectsSection/Projects'
 import Services from '../components/ServicesSection/Services'
 import Video from '../components/VideoSection/Video'
+import Joinour from '../components/JoinOur/Joinour'
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <Video />
             <Services />
             <Projects />
+            <Joinour />
         </section>
     )
 }
