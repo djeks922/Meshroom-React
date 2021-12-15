@@ -3,7 +3,7 @@ import React from 'react'
 import './Joinour.css'
 
 import TopImage from '../../assets/img/geraldine-lewa-3fWE0Dp_aj8-unsplash.jpg'
-
+import BottomImg from '../../assets/img/lennert-naessens-EgB66PkGZbQ-unsplash.jpg'
 import JoinOurLeft from './JoinOurLeft'
 import JoinOurRight from './JoinOurRight'
 
@@ -17,6 +17,10 @@ function Joinour() {
             <div className="joinOurContainer">
                 <JoinOurLeft />
                 <JoinOurRight />
+            </div>
+
+            <div className="joinLeftEnd">
+                <img src={BottomImg} alt="" />
             </div>
         </section>
     )

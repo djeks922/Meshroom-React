@@ -1,5 +1,7 @@
 import React from 'react'
 import inputbg from '../../assets/img/inputbg.png'
+import DashedLine from '../../assets/img/dashed-line.svg'
+import BottomImg from '../../assets/img/lennert-naessens-EgB66PkGZbQ-unsplash.jpg'
 
 function JoinOurLeft() {
     return (
@@ -38,6 +40,10 @@ function JoinOurLeft() {
                     </div>
 
                 </form>
+            </div>
+
+            <div className='joinLeftDashedLine'>
+                <img src={DashedLine} alt="" />
             </div>
         </div>
     )
