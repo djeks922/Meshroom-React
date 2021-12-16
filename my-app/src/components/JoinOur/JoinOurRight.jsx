@@ -1,4 +1,7 @@
 import React from 'react'
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import Katya from '../../assets/img/katya-austin-koyy-5uzlPU-unsplash@2x.webp'
 import Rainbow from '../../assets/img/mika-baumeister-PtabTe6iJ_8-unsplash.webp'
 
@@ -7,7 +10,9 @@ function JoinOurRight() {
         <div className='joinRight'>
 
             <div className="joinRightTop">
-                <img src={Katya} alt="" />
+                <LazyLoadImage className=""
+                    alt="meshroom"
+                    src={Katya} />
             </div>
 
             <div className="joinRightMiddle">
@@ -26,7 +31,9 @@ function JoinOurRight() {
             </div>
 
             <div className="joinRightBottom">
-                <img src={Rainbow} alt="" />
+                <LazyLoadImage className=""
+                    alt="meshroom"
+                    src={Rainbow} />
             </div>
 
             <div className="joinRightEnd">

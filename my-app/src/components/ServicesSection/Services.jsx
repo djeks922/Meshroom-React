@@ -1,4 +1,5 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './Services.css'
 import Brush from '../../assets/img/Group_741_2x-transparent-brush.webp'
 import ServicesWord from '../../assets/img/Services_2x-transparent-services.webp'
@@ -7,8 +8,12 @@ import ThirdImage from '../../assets/img/Group_771_2x-transparent.webp'
 function Services() {
     return (
         <section className="services">
-            <img src={Brush} className="services__bg-center" />
-            <img src={ServicesWord} className="services__bg-upper" />
+            <LazyLoadImage className="services__bg-center"
+                alt="printshop"
+                src={Brush} />
+            <LazyLoadImage className="services__bg-upper"
+                alt="print_services"
+                src={ServicesWord} />
             <div className="services__wrapper">
                 <div data-aos="fade-right" className="services__upper-text">
                     <h1 data-aos="fade-right">Does your brand need unique print services?</h1>
@@ -17,7 +22,9 @@ function Services() {
                 </div>
                 <div className="services__middle">
                     <div data-aos="fade-right" className="services__img">
-                        <img src={ThirdImage} />
+                        <LazyLoadImage className=""
+                            alt="meshroom-print"
+                            src={ThirdImage} />
                     </div>
                     <div className="services__options">
                         <ul className="sevices__options-bulletList">

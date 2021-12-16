@@ -1,4 +1,5 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './Projects.css'
 
 import Car from '../../assets/img/car.webp'
@@ -16,35 +17,49 @@ function Projects() {
                     featured projects</h1>
             </div>
             <div className="ftprojects__container">
+
                 <div className="ftprojects__proje">
-                    <img data-aos="zoom-in" src={Car} />
+                    <LazyLoadImage
+                        alt="print_workshop"
+                        src={Car} />
                     <div className="ftprojects_proje_footerImg">
                         <img src={Hover} />
                         <p>Vehicle liveries</p>
                     </div>
                 </div>
+
                 <div className="ftprojects__proje">
-                    <img data-aos="zoom-in" id="hospital" src={Hospital} />
+                    <LazyLoadImage
+                        alt="print_workshop_uk"
+                        src={Hospital} />
                     <div className="ftprojects_proje_footerImg">
                         <img src={Hover} />
                         <p className="signs">Signs</p>
                     </div>
                 </div>
+
                 <div className="ftprojects__proje">
-                    <img data-aos="zoom-in" src={Movie} />
+                    <LazyLoadImage
+                        alt="print_posters"
+                        src={Movie} />
                     <div className="ftprojects_proje_footerImg">
                         <img src={Hover} />
                         <p>Posters & Canvases</p>
                     </div>
                 </div>
+
                 <div className="ftprojects__proje">
-                    <img data-aos="zoom-in" src={Book} />
+                    <LazyLoadImage
+                        alt="print_book"
+                        src={Book} />
                     <div className="ftprojects_proje_footerImg">
                         <img src={Hover} />
                         <p>Stationary Printing</p>
                     </div>
                 </div>
+
             </div>
+
             <div className="seeAll">
                 <button className="seeAllBtn" type='submit'>
                     <div className="seeAllInside">
@@ -57,9 +72,13 @@ function Projects() {
                     </div>
                 </button>
             </div>
+
             <div data-aos="fade-left" className="we-love-print">
-                <img src={Katya} />
+                <LazyLoadImage
+                    alt="uk_print'_workshop"
+                    src={Katya} />
             </div>
+
         </section>
     )
 }
