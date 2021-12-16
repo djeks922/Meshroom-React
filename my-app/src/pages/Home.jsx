@@ -5,6 +5,7 @@ import Projects from '../components/ProjectsSection/Projects'
 import Services from '../components/ServicesSection/Services'
 import Video from '../components/VideoSection/Video'
 import Joinour from '../components/JoinOur/Joinour'
+import Haveproject from '../components/HaveProject/Haveproject'
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <Services />
             <Projects />
             <Joinour />
+            <Haveproject />
         </section>
     )
 }
