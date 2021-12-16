@@ -232,7 +232,102 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 370px) {
+@media screen and (min-width: 370px) and (max-width: 414px) {
+  .joinOurTop {
+    width: 100%;
+  }
+
+  .joinLeftHeading {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .joinLeft {
+    margin: 0px 0px;
+  }
+
+  .inputbg {
+    width: 70%;
+  }
+
+  .joinLeftForm form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .joinButton {
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .jointext {
+    margin-top: 9% !important;
+    font-size: 15px !important;
+  }
+
+  .joinLeftForm form label input {
+    top: 65%;
+  }
+
+  .joinOurContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .joinRight {
+    padding: 0px 5px;
+    margin-top: 8%;
+  }
+
+  .joinRightTop,
+  .joinRightBottom,
+  .joinRightMiddle,
+  .joinRightEnd {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .joinRightTop {
+    order: 3;
+  }
+
+  .joinRightMiddle {
+    text-align: center;
+    margin: 24px 0px;
+    order: 2;
+  }
+
+  .joinRightEnd {
+    text-align: center;
+    font-size: 24px;
+    order: 4;
+    margin-top: 24px !important;
+  }
+
+  .joinLeftEnd {
+    width: 100%;
+    position: relative;
+    bottom: 2%;
+  }
+
+  .joinLeftDashedLine {
+    width: 100%;
+  }
+
+  .joinLeftDashedLine img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
   .joinOurTop {
     width: 100%;
   }
@@ -327,102 +422,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 370px) {
-  .joinOurTop {
-    width: 100%;
-  }
-
-  .joinLeftHeading {
-    text-align: center;
-    font-size: 24px;
-  }
-
-  .joinLeft {
-    margin: 0px 0px;
-  }
-
-  .inputbg {
-    width: 70%;
-  }
-
-  .joinLeftForm form label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .joinButton {
-    display: flex;
-    margin: 0 auto;
-    width: 75%;
-  }
-
-  .jointext {
-    margin-top: 10% !important;
-    font-size: 15px !important;
-  }
-
-  .joinLeftForm form label input {
-    top: 65%;
-  }
-
-  .joinOurContainer {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-
-  .joinRight {
-    padding: 0px 5px;
-    margin-top: 8%;
-  }
-
-  .joinRightTop,
-  .joinRightBottom,
-  .joinRightMiddle,
-  .joinRightEnd {
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-  }
-
-  .joinRightTop {
-    order: 3;
-  }
-
-  .joinRightMiddle {
-    text-align: center;
-    margin: 24px 0px;
-    order: 2;
-  }
-
-  .joinRightEnd {
-    text-align: center;
-    font-size: 24px;
-    order: 4;
-    margin-top: 24px !important;
-  }
-
-  .joinLeftEnd {
-    width: 100%;
-    position: relative;
-    bottom: 2%;
-  }
-
-  .joinLeftDashedLine {
-    width: 100%;
-  }
-
-  .joinLeftDashedLine img {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 370px) {
+@media screen and (min-width: 766px) and (max-width: 1024px) {
   .joinOurTop {
     width: 100%;
   }

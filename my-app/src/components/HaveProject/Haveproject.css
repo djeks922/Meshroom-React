@@ -165,7 +165,7 @@
   }
 }
 
-@media screen and (min-width: 370) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 414px) {
   .haveLeft {
     margin-top: 18%;
     width: 100%;
