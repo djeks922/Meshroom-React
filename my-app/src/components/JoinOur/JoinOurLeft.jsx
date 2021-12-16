@@ -1,7 +1,7 @@
 import React from 'react'
-import inputbg from '../../assets/img/inputbg.png'
+import inputbg from '../../assets/img/inputbg.webp'
 import DashedLine from '../../assets/img/dashed-line.svg'
-import BottomImg from '../../assets/img/lennert-naessens-EgB66PkGZbQ-unsplash.jpg'
+import BottomImg from '../../assets/img/lennert-naessens-EgB66PkGZbQ-unsplash.webp'
 
 function JoinOurLeft() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import museum from '../../assets/img/birmingham-museums-trust-e0wBK0xJXYQ-unsplash.jpg'
-import emarts from '../../assets/img/emarts-emarts-ZCTh4f4mv18-unsplash.jpg'
+import museum from '../../assets/img/birmingham-museums-trust-e0wBK0xJXYQ-unsplash.webp'
+import emarts from '../../assets/img/emarts-emarts-ZCTh4f4mv18-unsplash.webp'
 
 function HaveRight() {
     return (

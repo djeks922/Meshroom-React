@@ -1,7 +1,7 @@
 footer {
   height: 105vh;
   background-image: url(../../assets/img/footer-brush.svg),
-    url(../../assets/img/bg.png);
+    url(../../assets/img/bg.webp);
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;

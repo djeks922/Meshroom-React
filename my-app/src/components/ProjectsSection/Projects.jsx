@@ -1,12 +1,12 @@
 import React from 'react'
 import './Projects.css'
 
-import Car from '../../assets/img/car.jpg'
-import Hospital from "../../assets/img/hospital.jpg"
-import Movie from "../../assets/img/movie.jpg"
-import Book from "../../assets/img/book.jpg"
-import Hover from "../../assets/img/hover.png"
-import Katya from "../../assets/img/katya-austin-koyy-5uzlPU-unsplash@2x.jpg"
+import Car from '../../assets/img/car.webp'
+import Hospital from "../../assets/img/hospital.webp"
+import Movie from "../../assets/img/movie.webp"
+import Book from "../../assets/img/book.webp"
+import Hover from "../../assets/img/hover.webp"
+import Katya from "../../assets/img/katya-austin-koyy-5uzlPU-unsplash@2x.webp"
 
 function Projects() {
     return (

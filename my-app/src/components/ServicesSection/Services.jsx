@@ -1,8 +1,8 @@
 import React from 'react'
 import './Services.css'
-import Brush from '../../assets/img/Group_741_2x-transparent-brush.png'
-import ServicesWord from '../../assets/img/Services_2x-transparent-services.png'
-import ThirdImage from '../../assets/img/Group_771_2x-transparent.png'
+import Brush from '../../assets/img/Group_741_2x-transparent-brush.webp'
+import ServicesWord from '../../assets/img/Services_2x-transparent-services.webp'
+import ThirdImage from '../../assets/img/Group_771_2x-transparent.webp'
 
 function Services() {
     return (

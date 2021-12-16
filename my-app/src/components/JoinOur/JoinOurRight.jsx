@@ -1,6 +1,6 @@
 import React from 'react'
-import Katya from '../../assets/img/katya-austin-koyy-5uzlPU-unsplash@2x.jpg'
-import Rainbow from '../../assets/img/mika-baumeister-PtabTe6iJ_8-unsplash.jpg'
+import Katya from '../../assets/img/katya-austin-koyy-5uzlPU-unsplash@2x.webp'
+import Rainbow from '../../assets/img/mika-baumeister-PtabTe6iJ_8-unsplash.webp'
 
 function JoinOurRight() {
     return (
