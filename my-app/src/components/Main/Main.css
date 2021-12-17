@@ -1,5 +1,5 @@
 .main {
-  height: auto;
+  height: 100vh;
   background-image: url("../../assets/img/bg.webp");
   background-size: cover;
   position: relative;

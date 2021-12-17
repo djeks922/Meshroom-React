@@ -1,5 +1,4 @@
 .joinOur {
-  height: 280vh !important;
   background-image: url(../../assets/img/bg.webp);
   background-position: center;
   background-repeat: no-repeat;
@@ -20,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   margin: 80px 0px;
+  padding-bottom: 300px;
 }
 
 .joinLeft {
@@ -181,6 +181,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding-bottom: 0;
   }
 
   .joinRight {
@@ -284,6 +285,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding-bottom: 0;
   }
 
   .joinRight {
@@ -386,6 +388,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding-bottom: 0;
   }
 
   .joinRight {
