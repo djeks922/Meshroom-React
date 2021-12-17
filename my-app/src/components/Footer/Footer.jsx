@@ -38,11 +38,9 @@ function Footer() {
                                 Birmingham B13 8HW</a>
                         </li>
                         <li className="footerIcons">
-                            <a href="#">
-                                <span data-aos="fade-up" data-aos-delay="30"><a href="#">FB</a></span>
-                                <span data-aos="fade-up" data-aos-delay="50"><a href="#">IG</a></span>
-                                <span data-aos="fade-up" data-aos-delay="70"><a href="#">TW</a></span>
-                            </a>
+                            <span data-aos="fade-up" data-aos-delay="30"><a href="#">FB</a></span>
+                            <span data-aos="fade-up" data-aos-delay="50"><a href="#">IG</a></span>
+                            <span data-aos="fade-up" data-aos-delay="70"><a href="#">TW</a></span>
                         </li>
                     </ul>
                 </div>

@@ -1,5 +1,5 @@
 .joinOur {
-  height: 300vh;
+  height: 280vh !important;
   background-image: url(../../assets/img/bg.webp);
   background-position: center;
   background-repeat: no-repeat;
@@ -127,10 +127,9 @@
 
 .joinLeftEnd {
   width: 60%;
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: -10%;
-  z-index: 2;
 }
 
 .joinLeftEnd img {
@@ -230,6 +229,14 @@
   .joinLeftDashedLine img {
     width: 100%;
   }
+
+  .joinButtonInside {
+    height: auto !important;
+  }
+
+  .jointext {
+    transform: translateY(-15px) I !important;
+  }
 }
 
 @media screen and (min-width: 370px) and (max-width: 414px) {
@@ -325,6 +332,14 @@
   .joinLeftDashedLine img {
     width: 100%;
   }
+
+  .joinButtonInside {
+    height: auto !important;
+  }
+
+  .jointext {
+    transform: translateY(-15px) !important;
+  }
 }
 
 @media screen and (min-width: 414px) and (max-width: 768px) {
@@ -359,7 +374,6 @@
   }
 
   .jointext {
-    margin-top: 10% !important;
     font-size: 15px !important;
   }
 
@@ -419,6 +433,10 @@
 
   .joinLeftDashedLine img {
     width: 100%;
+  }
+
+  .joinButtonInside {
+    height: auto !important;
   }
 }
 
@@ -514,5 +532,9 @@
 
   .joinLeftDashedLine img {
     width: 100%;
+  }
+
+  .joinButtonInside {
+    height: auto !important;
   }
 }

@@ -346,7 +346,8 @@ canvas {
     width: 90px;
   }
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+
+@media screen and (min-width: 370px) and (max-width: 474px) {
   .main {
     flex-direction: column;
     height: 100%;
@@ -412,7 +413,8 @@ canvas {
     width: 90px;
   }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+
+@media screen and (min-width: 474px) and (max-width: 768px) {
   .main {
     flex-direction: column;
     height: 100%;
@@ -477,7 +479,12 @@ canvas {
   #secondMachine {
     width: 90px;
   }
+
+  .title {
+    display: block;
+  }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .main {
     flex-direction: column;
@@ -506,7 +513,7 @@ canvas {
   }
 
   .mainLeftArea p {
-    font-size: 16px;
+    font-size: 17.5px;
     line-height: 1.5;
     margin: 28px 0px;
   }
@@ -542,5 +549,14 @@ canvas {
 
   #secondMachine {
     width: 90px;
+  }
+
+  .title {
+    display: block;
+    font-size: 1.2em;
+  }
+
+  .mainButtonInside {
+    transform: translate(-10px, 0);
   }
 }

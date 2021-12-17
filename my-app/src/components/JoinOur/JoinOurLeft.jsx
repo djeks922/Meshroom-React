@@ -27,7 +27,7 @@ function JoinOurLeft() {
 
                     <div className="mainButtonBack joinButton">
                         <button type='submit' className="mainButton">
-                            <div className="mainButtonInside">
+                            <div className="mainButtonInside joinButtonInside">
                                 <span className="btn-paint-main"></span>
                                 <span className="btn-paint-main"></span>
                                 <span className="btn-paint-main"></span>
