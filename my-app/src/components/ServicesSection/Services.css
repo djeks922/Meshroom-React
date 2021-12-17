@@ -36,6 +36,7 @@
   width: 100%;
   z-index: 2;
   padding-left: 4vw;
+  padding-bottom: 15vh;
 }
 .services__upper-text {
   width: 300px;
@@ -121,10 +122,12 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
+  .services__upper-text{
+    margin: auto;
+  }
   .services__middle {
     flex-direction: column;
     padding-top: 20px;
-    height: 90vh;
     justify-content: space-between;
   }
   .services__options {
@@ -132,7 +135,7 @@
     height: 30%;
   }
   .services__img {
-    width: 100%;
+    width: 200px;
     aspect-ratio: 1;
   }
   .sevices__options-bulletList {
@@ -141,6 +144,7 @@
   .services__footer-text p {
     width: 100%;
     margin-left: 44px;
+    font-size: 0.7rem;
   }
   .services__footer-text--rotated {
     filter: blur(1px);
@@ -148,10 +152,12 @@
 }
 
 @media screen and (min-width: 370px) and (max-width: 414px) {
+  .services__upper-text{
+    margin: auto;
+  }
   .services__middle {
     flex-direction: column;
     padding-top: 20px;
-    height: 90vh;
     justify-content: space-between;
   }
   .services__options {
@@ -159,7 +165,7 @@
     height: 30%;
   }
   .services__img {
-    width: 100%;
+    width: 240px;
     aspect-ratio: 1;
   }
   .sevices__options-bulletList {
@@ -168,6 +174,7 @@
   .services__footer-text p {
     width: 100%;
     margin-left: 44px;
+    font-size: 1.0rem;
   }
   .services__footer-text--rotated {
     filter: blur(1px);
@@ -178,7 +185,6 @@
   .services__middle {
     flex-direction: column;
     padding-top: 20px;
-    height: 90vh;
     justify-content: space-between;
   }
   .services__options {
@@ -186,7 +192,7 @@
     height: 30%;
   }
   .services__img {
-    width: 100%;
+    width: 280px;
     aspect-ratio: 1;
   }
   .sevices__options-bulletList {
@@ -195,6 +201,7 @@
   .services__footer-text p {
     width: 100%;
     margin-left: 44px;
+    font-size: 1.2rem;
   }
   .services__footer-text--rotated {
     filter: blur(1px);
@@ -205,7 +212,6 @@
   .services__middle {
     flex-direction: column;
     padding-top: 20px;
-    height: 90vh;
     justify-content: space-between;
   }
   .services__options {
@@ -213,7 +219,7 @@
     height: 30%;
   }
   .services__img {
-    width: 100%;
+    width: 400px;
     aspect-ratio: 1;
   }
   .sevices__options-bulletList {

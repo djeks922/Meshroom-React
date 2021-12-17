@@ -2,7 +2,7 @@
   background-image: url(../../assets/img/Group763.webp);
   background-position: center;
   background-size: 100%;
-  height: 180vh;
+  /* height: 180vh; */
   position: relative;
   width: 100%;
   animation-name: move;
@@ -10,10 +10,12 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   /* background-color: rgba(56, 54, 52, 0.226); */
+  padding-bottom: 2vh;
 }
 .ftprojects__container {
   width: 100%;
   display: flex;
+  margin-bottom: 700px;
 }
 .ftprojects__header {
   display: inline-block;
@@ -49,7 +51,7 @@
   height: 100%;
 }
 .ftprojects_proje_footerImg p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: absolute;
   top: 33%;
   left: 21%;
@@ -66,12 +68,12 @@
   position: absolute;
   height: 400px;
   width: 500px;
-  bottom: 0;
+  bottom:10%;
   right: 0;
 }
 .we-love-print img {
   width: 100%;
-  height: 85%;
+  height: 100%;
 }
 
 .seeAll {
@@ -190,16 +192,27 @@
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
   .ftprojects {
-    height: 430vh;
+
   }
   .ftprojects__header {
     font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
   }
   .ftprojects__container {
     flex-wrap: wrap;
+    margin-bottom: 200px;
+    padding: 10px;
   }
   .ftprojects__proje {
     width: 100%;
+    margin-bottom: 10px;
+  }
+  .we-love-print {
+    height: 150px;
+    width: 200px;
+    bottom:5%;
+    display: none;  /*!!!*/
   }
   .seeAll {
     width: 250px;
@@ -212,16 +225,28 @@
 
 @media screen and (min-width: 370px) and (max-width: 414px) {
   .ftprojects {
-    height: 430vh;
+
   }
   .ftprojects__header {
     font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
   }
   .ftprojects__container {
     flex-wrap: wrap;
+    margin-bottom: 200px;
+    justify-content: center;
+    padding: 10px;
   }
   .ftprojects__proje {
-    width: 100%;
+    width: 66%;
+    margin-bottom: 10px;
+  }
+  .we-love-print {
+    height: 150px;
+    width: 200px;
+    bottom:6%;
+    display: none;  /*!!!*/
   }
   .seeAll {
     width: 250px;
@@ -234,16 +259,26 @@
 
 @media screen and (min-width: 414px) and (max-width: 768px) {
   .ftprojects {
-    height: 430vh;
+
   }
   .ftprojects__header {
     font-size: 1.4rem;
   }
   .ftprojects__container {
     flex-wrap: wrap;
+    margin-bottom: 300px;
+    justify-content: center;
+    padding: 10px;
   }
   .ftprojects__proje {
-    width: 100%;
+    width: 75%;
+    margin-bottom: 10px;
+  }
+  .we-love-print {
+    height: 200px;
+    width: 300px;
+    bottom:5%;
+    display: none;  /*!!!*/
   }
   .seeAll {
     width: 250px;
@@ -256,16 +291,24 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .ftprojects {
-    height: 430vh;
+   
   }
   .ftprojects__header {
     font-size: 1.4rem;
   }
   .ftprojects__container {
     flex-wrap: wrap;
+    margin-bottom: 300px;
   }
   .ftprojects__proje {
-    width: 100%;
+    width: 45%;
+    margin: 18px;
+  }
+  .we-love-print {
+    height: 200px;
+    width: 300px;
+    bottom:9%;
+    display: none;  /*!!!*/
   }
   .seeAll {
     width: 250px;

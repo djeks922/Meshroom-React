@@ -1,6 +1,8 @@
 .video {
   height: 100vh;
-  /* background-color: wheat; */
+  background-color: wheat;
+  background-image: url(../../assets/img/videobg.webp);
+  background-position: center;
 }
 .fullscreen-bg {
   position: relative;
@@ -19,19 +21,31 @@
   height: 100%;
 }
 
-.video {
-  background-image: url(../../assets/img/videobg.webp);
-  background-position: center;
-}
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
+  .video{
+    padding: 30px;
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width: 370px) and (max-width: 414px) {
+  .video{
+    padding: 30px;
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width: 414px) and (max-width: 768px) {
+  .video{
+    padding: 30px;
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video{
+    padding: 30px;
+    overflow: hidden;
+  }
 }
