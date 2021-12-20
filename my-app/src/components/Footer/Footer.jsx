@@ -6,7 +6,7 @@ function Footer() {
         <footer>
             <div className="footerContainer">
                 <div className="footerFirst">
-                    <h5 data-aos="fade-up">Pages</h5>
+                    <h3 data-aos="fade-up">Pages</h3>
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="30"><a href="#">Services</a></li>
                         <li data-aos="fade-up" data-aos-delay="50"><a href="#">Projects</a></li>
@@ -16,7 +16,7 @@ function Footer() {
                 </div>
 
                 <div className="footerSecond">
-                    <h5 data-aos="fade-up">Services</h5>
+                    <h3 data-aos="fade-up">Services</h3>
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="30"><a href="#">Screen Printing</a></li>
                         <li data-aos="fade-up" data-aos-delay="50"><a href="#">Sublimation Printing</a></li>
@@ -29,7 +29,7 @@ function Footer() {
                 </div>
 
                 <div className="footerThird">
-                    <h5 data-aos="fade-up">Contact details</h5>
+                    <h3 data-aos="fade-up">Contact details</h3>
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="30"><a href="#">hello@themeshroom.co.uk</a></li>
                         <li data-aos="fade-up" data-aos-delay="50"><a href="#">+44 7834 282061</a></li>

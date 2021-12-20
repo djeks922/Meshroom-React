@@ -18,7 +18,7 @@ function SideHeader() {
             <div className="menu-close" onClick={closeMenu}>&times;</div>
             <div className="menu">
                 <div className="menu__item">
-                    <a href="" className="menu__item-link">Home</a>
+                    <a href="https://github.com/" className="menu__item-link">Home</a>
                     <div className="menu__item-spans">
                         <div className="menu__item-span">
                             <span>Home-Home-Home-Home-Home-Home</span>
@@ -26,7 +26,7 @@ function SideHeader() {
                     </div>
                 </div>
                 <div className="menu__item">
-                    <a href="" className="menu__item-link">Dashboard</a>
+                    <a href="https://youtube.com/" className="menu__item-link">Dashboard</a>
                     <div className="menu__item-spans">
                         <div className="menu__item-span">
                             <span>

@@ -23,7 +23,7 @@ function Projects() {
                         alt="print_workshop"
                         src={Car} />
                     <div className="ftprojects_proje_footerImg">
-                        <img src={Hover} />
+                        <img src={Hover} alt='meshroom-services' />
                         <p>Vehicle liveries</p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ function Projects() {
                         alt="print_workshop_uk"
                         src={Hospital} />
                     <div className="ftprojects_proje_footerImg">
-                        <img src={Hover} />
+                        <img src={Hover} alt='meshroom-services' />
                         <p className="signs">Signs</p>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ function Projects() {
                         alt="print_posters"
                         src={Movie} />
                     <div className="ftprojects_proje_footerImg">
-                        <img src={Hover} />
+                        <img src={Hover} alt='meshroom-services' />
                         <p>Posters & Canvases</p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ function Projects() {
                         alt="print_book"
                         src={Book} />
                     <div className="ftprojects_proje_footerImg">
-                        <img src={Hover} />
+                        <img src={Hover} alt='meshroom-services' />
                         <p>Stationary Printing</p>
                     </div>
                 </div>
