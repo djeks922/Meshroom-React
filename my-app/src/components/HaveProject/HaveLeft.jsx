@@ -19,19 +19,19 @@ function HaveLeft() {
 
                     <label>
                         <p>name</p>
-                        <img src={inputbg} alt="" />
+                        <img src={inputbg} alt="fashion-printing" />
                         <input type="text" />
                     </label>
 
                     <label>
                         <p>email</p>
-                        <img src={inputbg} alt="" />
+                        <img src={inputbg} alt="embroidery" />
                         <input type="email" />
                     </label>
 
                     <label>
                         <p>message</p>
-                        <img src={inputbg} alt="" />
+                        <img src={inputbg} alt="textile" />
                         <input type="text" />
                     </label>
 

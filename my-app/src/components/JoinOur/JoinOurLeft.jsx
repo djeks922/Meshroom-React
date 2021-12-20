@@ -15,13 +15,13 @@ function JoinOurLeft() {
 
                     <label>
                         <p>name</p>
-                        <img className='inputbg' src={inputbg} alt="" />
+                        <img className='inputbg' src={inputbg} alt="uk-print-workshop" />
                         <input type="text" />
                     </label>
 
                     <label>
                         <p>email</p>
-                        <img className='inputbg' src={inputbg} alt="" />
+                        <img className='inputbg' src={inputbg} alt="meshroom" />
                         <input type="email" />
                     </label>
 
@@ -43,7 +43,7 @@ function JoinOurLeft() {
             </div>
 
             <div className='joinLeftDashedLine'>
-                <img src={DashedLine} alt="" />
+                <img src={DashedLine} alt="sublimation-printing" />
             </div>
         </div>
     )

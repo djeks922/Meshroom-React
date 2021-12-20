@@ -13,8 +13,8 @@ function Projects() {
     return (
         <section className="ftprojects">
             <div data-aos="fade-up-right" className="ftprojects__header">
-                <h1>Some of our <br />
-                    featured projects</h1>
+                <h2>Some of our <br />
+                    featured projects</h2>
             </div>
             <div className="ftprojects__container">
 

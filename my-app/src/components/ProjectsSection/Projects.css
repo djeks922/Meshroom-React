@@ -26,7 +26,7 @@
   padding-bottom: 20px;
   padding-top: 20px;
 }
-.ftprojects__header h1 {
+.ftprojects__header h2 {
   font-weight: 150;
   font-family: "Druk-Wide-Medium";
 }
@@ -68,7 +68,7 @@
   position: absolute;
   height: 400px;
   width: 500px;
-  bottom:10%;
+  bottom: 10%;
   right: 0;
 }
 .we-love-print img {
@@ -192,7 +192,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
   .ftprojects {
-
   }
   .ftprojects__header {
     font-size: 1.4rem;
@@ -211,8 +210,8 @@
   .we-love-print {
     height: 150px;
     width: 200px;
-    bottom:5%;
-    display: none;  /*!!!*/
+    bottom: 5%;
+    display: none; /*!!!*/
   }
   .seeAll {
     width: 250px;
@@ -225,7 +224,6 @@
 
 @media screen and (min-width: 370px) and (max-width: 414px) {
   .ftprojects {
-
   }
   .ftprojects__header {
     font-size: 1.4rem;
@@ -245,8 +243,8 @@
   .we-love-print {
     height: 150px;
     width: 200px;
-    bottom:6%;
-    display: none;  /*!!!*/
+    bottom: 6%;
+    display: none; /*!!!*/
   }
   .seeAll {
     width: 250px;
@@ -259,7 +257,6 @@
 
 @media screen and (min-width: 414px) and (max-width: 768px) {
   .ftprojects {
-
   }
   .ftprojects__header {
     font-size: 1.4rem;
@@ -277,8 +274,8 @@
   .we-love-print {
     height: 200px;
     width: 300px;
-    bottom:5%;
-    display: none;  /*!!!*/
+    bottom: 5%;
+    display: none; /*!!!*/
   }
   .seeAll {
     width: 250px;
@@ -291,7 +288,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .ftprojects {
-   
   }
   .ftprojects__header {
     font-size: 1.4rem;
@@ -307,8 +303,8 @@
   .we-love-print {
     height: 200px;
     width: 300px;
-    bottom:9%;
-    display: none;  /*!!!*/
+    bottom: 9%;
+    display: none; /*!!!*/
   }
   .seeAll {
     width: 250px;

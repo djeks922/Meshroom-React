@@ -16,7 +16,7 @@ function Services() {
                 src={ServicesWord} />
             <div className="services__wrapper">
                 <div data-aos="fade-right" className="services__upper-text">
-                    <h1 data-aos="fade-right">Does your brand need unique print services?</h1>
+                    <h2 data-aos="fade-right">Does your brand need unique print services?</h2>
                     <h3 data-aos="fade-right" data-aos-delay="100">With our services, we can help your brand achieve their goals
                     </h3>
                 </div>
