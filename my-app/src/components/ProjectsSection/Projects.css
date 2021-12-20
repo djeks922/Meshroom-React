@@ -20,7 +20,7 @@
 .ftprojects__header {
   display: inline-block;
   font-weight: 100;
-  width: 67vw;
+  width: 73vw;
   font-size: 2.5rem;
   padding-left: 4vw;
   padding-bottom: 20px;
@@ -51,18 +51,21 @@
   height: 100%;
 }
 .ftprojects_proje_footerImg p {
+  width: 100%;
+  text-align: center;
   font-size: 1rem;
   position: absolute;
-  top: 33%;
-  left: 21%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   font-family: system-ui;
   font-family: "Druk-Wide-Medium";
 }
 
-.signs {
+/* .signs {
   left: 40% !important;
-}
+} */
 
 .we-love-print {
   position: absolute;
@@ -207,6 +210,9 @@
     width: 100%;
     margin-bottom: 10px;
   }
+  .ftprojects_proje_footerImg p {
+font-size: 0.7rem;
+  }
   .we-love-print {
     height: 150px;
     width: 200px;
@@ -240,6 +246,9 @@
     width: 66%;
     margin-bottom: 10px;
   }
+  .ftprojects_proje_footerImg p {
+    font-size: 0.7rem;
+      }
   .we-love-print {
     height: 150px;
     width: 200px;
