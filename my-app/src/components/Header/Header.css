@@ -87,7 +87,7 @@ header nav {
   transition: opacity 0.4s;
   color: #000;
   text-decoration: none;
-  font-family: "Druk-Wide-Medium";
+  font-family: "Druk-Wide-Medium", sans-serif;
 }
 
 .menu__item-link::before {
@@ -134,7 +134,7 @@ header nav {
   overflow: hidden;
   color: rgb(217, 217, 217);
   pointer-events: none;
-  font-family: "Druk-Wide-Medium";
+  font-family: "Druk-Wide-Medium", sans-serif;
 }
 .menu__item-span {
   width: fit-content;

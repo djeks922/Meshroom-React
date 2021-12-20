@@ -25,7 +25,7 @@ footer {
 .footerFirst h5 {
   font-size: 24px;
   margin-bottom: 22px;
-  font-family: "Druk-Wide-Medium";
+  font-family: "Druk-Wide-Medium", sans-serif;
 }
 
 .footerFirst ul li {
@@ -35,13 +35,13 @@ footer {
 
 .footerFirst ul li a {
   color: white;
-  font-family: "Josefin-Sans";
+  font-family: "Josefin-Sans", sans-serif;
 }
 
 .footerSecond h5 {
   font-size: 24px;
   margin-bottom: 22px;
-  font-family: "Druk-Wide-Medium";
+  font-family: "Druk-Wide-Medium", sans-serif;
 }
 
 .footerSecond ul li {
@@ -51,13 +51,13 @@ footer {
 
 .footerSecond ul li a {
   color: white;
-  font-family: "Josefin-Sans";
+  font-family: "Josefin-Sans", sans-serif;
 }
 
 .footerThird h5 {
   font-size: 24px;
   margin-bottom: 22px;
-  font-family: "Druk-Wide-Medium";
+  font-family: "Druk-Wide-Medium", sans-serif;
 }
 
 .footerThird ul li {
@@ -66,7 +66,7 @@ footer {
 }
 
 .footerThird ul li a {
-  font-family: "Josefin-Sans";
+  font-family: "Josefin-Sans", sans-serif;
   color: white;
 }
 

@@ -22,7 +22,7 @@
 .haveLeftHeading div h2 {
   font-size: 64px;
   font-weight: 500;
-  font-family: "Druk-Wide-Medium";
+  font-family: "Druk-Wide-Medium", sans-serif;
   width: 70%;
 }
 
@@ -30,7 +30,7 @@
   font-size: 24px;
   font-weight: 400;
   margin-top: 25px;
-  font-family: "Josefin-Sans" !important;
+  font-family: "Josefin-Sans", sans-serif !important;
 }
 
 .haveLeftForm {
@@ -46,7 +46,7 @@
 .haveLeftForm form label {
   font-size: 25px;
   margin-bottom: 50px;
-  font-family: "Josefin-Sans";
+  font-family: "Josefin-Sans", sans-serif;
   position: relative;
 }
 
@@ -62,7 +62,7 @@
   outline: none;
   border: none;
   background-color: transparent;
-  font-family: "Josefin-Sans";
+  font-family: "Josefin-Sans", sans-serif;
   font-size: 20px;
   text-align: center;
   color: black;
@@ -96,6 +96,11 @@
 
 .haveRightBottom img {
   width: 100%;
+}
+
+.haveLeftForm form label img {
+  width: auto;
+  height: auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {

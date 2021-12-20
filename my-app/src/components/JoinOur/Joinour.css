@@ -28,7 +28,7 @@
 }
 
 .joinLeftHeading {
-  font-family: "Druk-Wide-Medium";
+  font-family: "Druk-Wide-Medium", sans-serif;
   font-size: 40px;
 }
 
@@ -42,7 +42,7 @@
 .joinLeftForm form label {
   font-size: 25px;
   margin-bottom: 50px;
-  font-family: "Josefin-Sans";
+  font-family: "Josefin-Sans", sans-serif;
   position: relative;
 }
 
@@ -58,7 +58,7 @@
   outline: none;
   border: none;
   background-color: transparent;
-  font-family: "Josefin-Sans";
+  font-family: "Josefin-Sans", sans-serif;
   font-size: 20px;
   text-align: center;
   color: white;
@@ -100,7 +100,7 @@
   left: 30%;
   color: white;
   font-size: 25px;
-  font-family: "Josefin-Sans";
+  font-family: "Josefin-Sans", sans-serif;
 }
 
 .joinRightBottom {
@@ -120,7 +120,7 @@
   top: 100%;
   left: 5%;
   color: white;
-  font-family: "Druk-Wide-Medium";
+  font-family: "Druk-Wide-Medium", sans-serif;
   font-size: 72px;
   font-weight: 500;
 }
